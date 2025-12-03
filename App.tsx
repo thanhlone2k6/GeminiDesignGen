@@ -1275,9 +1275,9 @@ const App: React.FC = () => {
         </div>
 
         {/* RIGHT SIDEBAR - PROMPT ASSISTANT (RESIZABLE & FIXED ON DESKTOP) */}
-        <div 
-            className="hidden md:flex flex-col border-l border-white/10 bg-slate-900/50 backdrop-blur-xl shrink-0 relative overflow-hidden" 
-            style={{ width: rightSidebarWidth }}
+        <div
+            className="hidden md:flex h-full min-h-0 flex-col border-l border-white/10 bg-slate-900/50 backdrop-blur-xl shrink-0 relative overflow-hidden"
+            style={{ width: rightSidebarWidth, minWidth: MIN_RIGHT_WIDTH, flexShrink: 0 }}
         >
             {/* DRAG HANDLE (LEFT EDGE) */}
             <div 
