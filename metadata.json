@@ -1,0 +1,7 @@
+{
+  "name": "DesignGen Pro (By ThanhNg)",
+  "description": "Ứng dụng tạo hình ảnh và tái tạo thiết kế áo thun chuyên nghiệp sử dụng model Gemini Nano Banana Pro mới nhất.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
